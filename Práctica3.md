@@ -17,14 +17,16 @@ por última comprobar si todo está correcto
 
 verificar alumno eso1 no puede leer grupo eso2
 
-verificar: creo una subcarpeta en eso1 y que tenga los permisos por defecto 
+verificar: creo una subcarpeta (por ejemplo: matemáticas) en eso1 y que tenga los permisos por defecto 
 
 verificar: teacher 2 no puede escribir en la carpeta teachers
+
 
 ## Práctica 3 "Permisos de seguridad"
 
 ### Introducción
 
+En esta práctica crearemos varias carpetas/grupos con sus respectivos usuarios y modificaremos sus permisos
 
 ### Desarrollo 
 
