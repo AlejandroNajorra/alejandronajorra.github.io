@@ -16,16 +16,16 @@ Para ello, utilizaremos el módulo *pam pw_password*, a través del cual podremo
 sudo apt install -y libpam-cracklib libpam-pwquality libpwquality-tools
 ```
 
-1. **Configuación**
+2. **Configuación**
 
-  Editamos el fichero /etc/security/pwquality.conf para modificar nuestra política de contraseña de manera que la seguridad de nuestro sistema se vea reforzada.
+  Editamos el fichero /etc/security/pwquality.conf para modificar nuestra política de contraseña, de manera que la seguridad de nuestro sistema se vea reforzada.
   
 
-1. **Verificación**
-
-
-### Comprobación
+3. **Verificación**
 
 poner 2 ejemplos 
 
 pwscore (debería fallar si no cumple con alguno de las políticas de contraseña)
+
+### Resumen
+
