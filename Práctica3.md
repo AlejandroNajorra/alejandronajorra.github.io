@@ -21,3 +21,17 @@ verificar: creo una subcarpeta en eso1 y que tenga los permisos por defecto
 
 verificar: teacher 2 no puede escribir en la carpeta teachers
 
+## Práctica 3 "Permisos de seguridad"
+
+### Introducción
+
+
+### Desarrollo 
+
+
+### Verificación
+
+
+### Resumen
+
+no hace falta explicar como hemos creado los grupos y usuarios, para ello basta con subir una captura del comando "tree -L 2"
