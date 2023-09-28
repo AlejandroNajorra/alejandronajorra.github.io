@@ -1,16 +1,14 @@
 # Práctica 2
 
-xxEl objetivo de la práctica es entender y configurar directrices de seguridad.
-
 ## Política de contraseñas
 
-## Introducción
+### Introducción
 
-La seguridad de nuestro sistema puede verse amenazada 
+La seguridad de nuestro sistema puede verse amenazada. Así pues, el objetivo de esta práctica es entender y configurar sus directrices con el fin de obtener un sistema más seguro.
 
-Para ello utilizaremos el módulo pam pw_password
+Para ello, utilizaremos el módulo pam pw_password, a través del cual podremos modificar las políticas de contraseña
 
-## Desarrollo
+### Desarrollo
 
 1. Instalación
    * ...
@@ -19,7 +17,7 @@ Para ello utilizaremos el módulo pam pw_password
 3. Verificación
 
 
-## Comprobación
+### Comprobación
 
 poner 2 ejemplos 
 
