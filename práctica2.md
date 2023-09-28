@@ -2,7 +2,7 @@
 
 ### Introducción
 
-La seguridad de nuestro sistema puede verse amenazada si no disponemos de una configuración apropiada. Así pues, el objetivo de esta práctica es entender y configurar sus directrices con el fin de obtener un sistema más seguro.
+La seguridad de nuestro sistema puede verse amenazada si no disponemos de una configuración apropiada. El objetivo de esta práctica es entender y configurar sus directrices con el fin de obtener un sistema más seguro.
 
 Para ello, utilizaremos el módulo *pam pw_password*, a través del cual podremos modificar las políticas de contraseña.
 
