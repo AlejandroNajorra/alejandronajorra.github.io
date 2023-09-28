@@ -4,7 +4,7 @@
 
 La seguridad de nuestro sistema puede verse amenazada si no disponemos de una configuración apropiada. Así pues, el objetivo de esta práctica es entender y configurar sus directrices con el fin de obtener un sistema más seguro.
 
-Para ello, utilizaremos el módulo *pam pw_password*, a través del cual podremos modificar las políticas de contraseña
+Para ello, utilizaremos el módulo *pam pw_password*, a través del cual podremos modificar las políticas de contraseña.
 
 ### Desarrollo
 
@@ -18,10 +18,10 @@ sudo apt install -y libpam-cracklib libpam-pwquality libpwquality-tools
 
 1. **Configuación**
 
-   * Editamos el fichero /etc/security/pwquality.conf
+  Editamos el fichero /etc/security/pwquality.conf para modificar nuestra política de contraseña de manera que la seguridad de nuestro sistema se vea reforzada.
   
 
-2. **Verificación**
+1. **Verificación**
 
 
 ### Comprobación
