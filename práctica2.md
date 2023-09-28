@@ -1,6 +1,6 @@
 # Práctica 2
 
-El objetivo de la práctica es entender y configurar directrices de seguridad.
+xxEl objetivo de la práctica es entender y configurar directrices de seguridad.
 
 ## Política de contraseñas
 
