@@ -1,0 +1,1 @@
+Carpeta llamada Compratido de Grupos, dentro de aqui, crear el grupo ESO1 y ESO2
