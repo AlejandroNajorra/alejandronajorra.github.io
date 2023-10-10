@@ -5,6 +5,8 @@ La redundancia aporta un nivel más de seguridad en caso de pérdida de datos. E
 
 ## Desarrollo
 
+crear raid
+luego crear la estructura de volúmenes lógicos, mejora gestión del espacio y escalabilidad
 
 
 ## Comprobación
