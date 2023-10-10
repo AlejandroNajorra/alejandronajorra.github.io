@@ -33,11 +33,11 @@ Editamos el archivo de configuración /etc/rsyslog
 
 Descomentamos las líneas:
 
-# Provides UDP syslog reception
+#Provides UDP syslog reception
 $ModLoad imudp
 $UDPServerRun 514
 
-# Provides TCP syslog reception
+#Provides TCP syslog reception
 $ModLoad imtcp
 $InputTCPServerRun 514
 
