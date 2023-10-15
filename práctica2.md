@@ -44,5 +44,5 @@ Si se han seguido los pasos previos y configurado el fichero anterior con las mi
 
 ```bash
 echo prueba | pwscore
-```bash
+```
 
