@@ -19,6 +19,23 @@ sudo apt install -y libpam-cracklib libpam-pwquality libpwquality-tools
 2. **Configuación**
 
   Editamos el fichero /etc/security/pwquality.conf para modificar nuestra política de contraseña, de manera que la seguridad de nuestro sistema se vea reforzada.
+
+```bash
+# La nueva contraseña debe tener 4 nuevos caracteres versus la anterior
+difok = 2
+# La contraseña deberá tener por lo menos 10 caracteres de longitud
+minlen = 8
+# Require por lo menos un dígito
+dcredit = -1
+# Requiere al menos 1 letra mayúscula
+ucredit = -1
+# Requiere al menos 1 letra minúscula
+lcredit = -1
+# Requiere al menos 1 carácater especial (no alfanumérico)
+ocredit = -1
+# Requiere un carácter de cada clase (mayúsculas, minúsculas, digito y otro)
+minclass = 4
+```
   
 
 3. **Verificación**
