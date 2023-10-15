@@ -51,3 +51,9 @@ En este caso, no nos permitirá el cambio de contraseña, ya que incumple con lo
 - Falta letra mayúscula
 - Falta caracter especial
 
+```bash
+echo Esunaprueba10*
+```
+Este sería un ejemplo adecuado a los requisitos configurados en nuestro archivo */etc/security/pwquality.conf*
+
+
