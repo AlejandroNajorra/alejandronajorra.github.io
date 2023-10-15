@@ -40,9 +40,9 @@ minclass = 4
 
 3. **Verificación**
 
-poner 2 ejemplos 
+Si se han seguido los pasos previos y configurado el fichero anterior con las mismas características, mediante el comando *pwscore* deberíamos poder cambiar la contraseña y comprobar si la configuración se ha aplicado correctamente. Por ejemplo:
 
-pwscore (debería fallar si no cumple con alguno de las políticas de contraseña)
-
-### Resumen
+```bash
+echo prueba | pwscore
+```bash
 
