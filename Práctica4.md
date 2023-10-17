@@ -11,6 +11,7 @@ Tener instalado la herramienta *mdadm*
 ```bash
 sudo apt-get install mdadm
 ```
+**Instalación del RAID 10**
 
 En primer lugar, creamos y añadiremos 5 unidades de almacenamiento del mismo tamaño, en nuestro caso de 2GB cada uno, de los cuales 4 serán activos y uno lo tendremos de respuesto, para que en el momento en el que falle cualquiera de las unidades, ésta la reemplace. 
 
