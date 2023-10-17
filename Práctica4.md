@@ -6,9 +6,15 @@ La redundancia aporta un nivel más de seguridad en caso de pérdida de datos. E
 ## Desarrollo
 
 **Requisitos previos**
-· N
-· h
 
+Tener instalado la herramienta *mdadm*
+```bash
+sudo apt-get install mdadm
+```
+
+En primer lugar, creamos y añadiremos 5 unidades de almacenamiento del mismo tamaño, en nuestro caso de 2GB cada uno, de los cuales 4 serán activos y uno lo tendremos de respuesto, para que en el momento en el que falle cualquiera de las unidades, ésta la reemplace. 
+
+Una vez añadidas, procedemos a crear el array de RAID 10 mediante mdadm
 
 
 crear raid
