@@ -15,10 +15,18 @@ sudo apt-get install mdadm
 
 En nuesta máquina virtual creamos y añadiremos 5 unidades de almacenamiento del mismo tamaño, en nuestro caso de 2GB cada uno, de los cuales 4 serán activos y uno lo tendremos de respuesto, para que en el momento en el que falle cualquiera de las unidades, ésta la reemplace. 
 
-Una vez añadidas, procedemos a crear el array de RAID 10 mediante mdadm
+1. Procedemos a crear el array de RAID 10 mediante mdadm:
 ```bash
-mdadm  --create /dev/md1 --level=raid10 --raid-devices=4 /dev/sdd /dev/sde /dev/sdf /dev/sdg
+mdadm  --create /dev/md1 --level=raid10 --raid-devices=4 /dev/sdb /dev/sdc /dev/sdd /dev/sde
 ```
+
+2. Una vez creado el RAID 10, añadimos la unidad de repuesto:
+
+```bash
+mdadm --add /dev/md1 /dev/sdf
+```
+   
+4. 
 
 crear raid-
 luego crear la estructura de volúmenes lógicos, mejora gestión del espacio y escalabilidad
