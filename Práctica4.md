@@ -17,8 +17,7 @@ En nuesta máquina virtual creamos y añadiremos 5 unidades de almacenamiento de
 
 Una vez añadidas, procedemos a crear el array de RAID 10 mediante mdadm
 ```bash
-mdadm  --create /dev/md1 --level=raid10 --raid-devices=4 \
-    /dev/sdd /dev/sde /dev/sdf /dev/sdg
+mdadm  --create /dev/md1 --level=raid10 --raid-devices=4 /dev/sdd /dev/sde /dev/sdf /dev/sdg
 ```
 
 crear raid-
