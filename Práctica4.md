@@ -21,7 +21,7 @@ mdadm  --create /dev/md1 --level=raid10 --raid-devices=4 \
     /dev/sdd /dev/sde /dev/sdf /dev/sdg
 ```
 
-crear raid
+crear raid-
 luego crear la estructura de volúmenes lógicos, mejora gestión del espacio y escalabilidad
 
 
