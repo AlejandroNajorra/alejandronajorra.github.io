@@ -33,7 +33,12 @@ mdadm --detail --scan >> /etc/mdadm.conf
 ```
 
 4. Editamos el archo /etc/mdadm.conf y borramos las líneas que se repitan para que no haya complicaciones a la hora de iniciar el sistema
-
+```bash
+sudo -i
+```
+```bash
+vi /etc/mdadm.conf
+```
 
 5. A partir de este momento, podemos crear la estructura de volúmenes lógicos para mejorar la gestión del espacio y la escalabilidad.
 
