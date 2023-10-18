@@ -76,9 +76,13 @@ umount /datos01
 ```
 
 
-
-creamos el LVM volumen lógico y físico, lo mostramos con los comandos lvscan,etc. por motivos académicos voy a redimensionar
-crear volumen lógico que ocupará un 95%
+Mediante los comandos "*lvscan*" y "*vgscan*" podremos ver las propiedades de nuestros volúmenes lógicos
+```bash
+lvscan
+```
+```bash
+vgscan
+```
 
 redimensionar un segundo volumen lógico que ocupe 60 y 40
 se mapena al sistema operativo en la carpeta /data001
