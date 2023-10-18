@@ -41,27 +41,36 @@ vi /etc/mdadm.conf
 ```
 
 5. A partir de este momento, podemos crear la estructura de volúmenes lógicos para mejorar la gestión del espacio y la escalabilidad.
+
+5.1
 ```bash
 pvcreate /dev/md1
 ```
+5.2
 ```bash
 vgcreate VGDatos01 /dev/md1
 ```
+5.3
 ```bash
 lvcreate -l 95%FREE VGDatos01 -n LVDatos01
 ```
+5.4
 ```bash
 mkfs.ext4 /dev/mapper/VGDatos01-LVDatos01
 ```
+5.5
 ```bash
 mkdir -p /datos01
 ```
+5.6
 ```bash
 mount /dev/mapper/VGDatos01-LVDatos01 /datos01
 ```
+5.7
 ```bash
 df -h
 ```
+5.8
 ```bash
 umount /datos01
 ```
