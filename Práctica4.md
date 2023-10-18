@@ -83,6 +83,10 @@ lvscan
 ```bash
 vgscan
 ```
+Editamos el archivo /etc/fstab y añadimos la siguiente línea:
+```bash
+/dev/mapper/VGDatos01-LVDatos01	/datos01	ext4	defaults	1 2
+```
 
 redimensionar un segundo volumen lógico que ocupe 60 y 40
 se mapena al sistema operativo en la carpeta /data001
