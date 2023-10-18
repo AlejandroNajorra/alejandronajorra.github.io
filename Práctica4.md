@@ -25,8 +25,14 @@ mdadm  --create /dev/md1 --level=raid10 --raid-devices=4 /dev/sdb /dev/sdc /dev/
 ```bash
 mdadm --add /dev/md1 /dev/sdf
 ```
-   
-3. 
+
+3. Guardamos la información del array que acabamos de crear en el archivo /etc/mdadm.conf
+
+```bash
+mdadm --detail --scan >> /etc/mdadm.conf
+```
+
+4.  
 
 crear raid-
 luego crear la estructura de volúmenes lógicos, mejora gestión del espacio y escalabilidad
