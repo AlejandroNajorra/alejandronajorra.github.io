@@ -32,10 +32,12 @@ mdadm --add /dev/md1 /dev/sdf
 mdadm --detail --scan >> /etc/mdadm.conf
 ```
 
-4.  
+4. Editamos el archo /etc/mdadm.conf
 
-crear raid-
-luego crear la estructura de volúmenes lógicos, mejora gestión del espacio y escalabilidad
+
+5. A partir de este momento, podemos crear la estructura de volúmenes lógicos para mejorar la gestión del espacio y la escalabilidad.
+
+
 
 
 
