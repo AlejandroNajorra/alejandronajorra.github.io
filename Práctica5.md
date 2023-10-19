@@ -4,8 +4,19 @@ Para hacer conexiones seguriad encriptadas hace falta un servidor web y certific
 
 ## Desarrollo
 
-
+Enviar un correo cifrado o encriptado utilizando el sistema de criptografia Open PgP (Pretty Goal Privacy)
 
 ## Comprobación
+
+
+enlaces guiados:
+
+Envío correos encriptados 
+
+ 
+
+    [Open PGP & Mailvelope ] https://www.redeszone.net/tutoriales/seguridad/cifrado-pgp-gmail-outlook-mailvelope/ 
+
+    [Open PGP ] https://www.incibe.es/empresas/blog/utiliza-el-correo-electronico-forma-segura-pgp 
 
 
