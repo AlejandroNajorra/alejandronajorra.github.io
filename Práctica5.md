@@ -6,8 +6,10 @@ Para hacer conexiones seguriad encriptadas hace falta un servidor web y certific
 
 Enviar un correo cifrado o encriptado utilizando el sistema de criptografia Open PgP (Pretty Goal Privacy)
 
-
 creamos un par de claves, las claves la subimos a un servidor para que el profesor tenga acceso
+
+---------- 
+
 
 
 ## Comprobación
