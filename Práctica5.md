@@ -4,7 +4,7 @@ Internet es un canal no seguro, “cualquier” persona podría obtener nuestros
 
 ## Desarrollo
 
-En esta **práctica** generaremos un certificado autofirmado que instalaremos en el servidor web
+En esta práctica generaremos un certificado autofirmado que instalaremos en el servidor web
 
 
 1. Generar certificado
