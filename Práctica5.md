@@ -13,3 +13,7 @@ En esta práctica generaremos un certificado autofirmado que instalaremos en el 
  
 
 ## Comprobación
+
+```bash
+l
+```
