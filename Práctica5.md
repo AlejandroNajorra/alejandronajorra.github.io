@@ -30,6 +30,18 @@ sudo apt install easy-rsa
 ```
 A partir de aquí, ya podemos proceder a crear nuestra infraestructura de clave pública y entidad certificadora
 
+---
+
+1. Infraestructura de clave pública
+
+Desde el directorio de inicio y **sin utilizar** *root* creamos el directorio *easy-rsa*
+```bash
+mkdir ~/easy-rsa
+```
+
+
+2. 
+
 
  /home/student/easy-rsa/pki/issued/student-server.crt
 (privada): /home/student/practice-csr: student-server.key
