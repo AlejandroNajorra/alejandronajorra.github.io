@@ -152,4 +152,8 @@ Firmamos
 ```bash
 ./easyrsa sign-req server server-alejandro
 ```
-5. 
+5. Obtener el certificado en nuestro cliente con navegador
+```bash
+scp student@192.168.1.1:/home/student/easy-rsa/pki/issued/server-alejandro.crt /home/alejandron/Downloads
+```
+Una vez obtenido el certificado en nuestro cliente, iremos a los ajusted de nuestro navegador e importaremos el certificado firmado por nosotros
