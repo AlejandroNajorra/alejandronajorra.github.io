@@ -39,6 +39,15 @@ Desde el directorio de inicio y **sin utilizar** *root* creamos el directorio *e
 mkdir ~/easy-rsa
 ```
 
+Una vez instalado, crearemos los enlaces simbólicos que irán dirigidos a los archivos del paquete *easy-rsa* instalado anteriormente. Utilizaremos el comando "ln -s"
+```bash
+ln -s /usr/share/easy-rsa/* ~/easy-rsa/
+```
+Ya solo nos queda iniciar la clave pública o PKI:
+```bash
+$cd ~/easy-rsa
+$./easyrsa init-pki
+```
 
 ### 2. 
 
