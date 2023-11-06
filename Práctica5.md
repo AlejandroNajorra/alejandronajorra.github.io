@@ -77,6 +77,7 @@ Guardamos el archivo y activamos la PKI pero esta vez con la opción *build-ca*,
 ./easy-rsa build-ca
 ```
 Nos pedirán una contraseña y nombre común 
+```bash
 Output
 . . .
 Enter New CA Key Passphrase:
@@ -89,9 +90,66 @@ Your new CA certificate file for publishing is at:
 /home/student/easy-rsa/pki/ca.crt
 ```
 
-
  /home/student/easy-rsa/pki/issued/student-server.crt
 (privada): /home/student/practice-csr: student-server.key
 
 ## Comprobación
 
+Ahora que ya tenemos una entidad certificadora, comprobaremos su funcionamiento generando una clave privada y una solicitud de certificado que firmaremos.
+
+En nuestro caso, lo haremos en un cliente de prueba, un Lubuntu.
+
+### Desarrollo 
+
+1. Instalar el paquete openssl
+```bash
+sudo apt update
+sudo apt install openssl
+```
+2. Generamos la clave privada
+
+```bash
+openssl genrsa -out student-server.key
+```
+3. Solicitamos un certificado (CSR)
+
+```bash
+openssl rew -new -key student-server.key -out student-server.req
+```
+Rellenamos el certificado
+```bash
+Output
+. . .
+-----
+Country Name (2 letter code) [XX]: ES
+State or Province Name (full name) []: Valencia
+Locality Name (eg, city) [Default City]:Valencia
+Organization Name (eg, company) [Default Company Ltd]: alejandro
+Organizational Unit Name (eg, section) []: alejandro
+Common Name (eg, your name or your server's hostname) []:student-server
+Email Address []: anajorratuazon@gmail.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:
+An optional company name []:
+```
+
+4. Firmar el certificado
+
+En nuestro servidor, la cual hace de entidad certificadora y a través de la herramiento *easy-rsa* firmamos la solicitud de certificado
+```bash
+cd ~/easy-rsa
+./easyrsa import-req /home/student/practice-csr/student-server.req server-alejandro
+```
+```bash
+Output
+. . .
+The request has been successfully imported with a short name of: server-alejandro
+You may now use this name to perform signing operations on this request.
+```
+Firmamos
+```bash
+./easyrsa sign-req server server-alejandro
+```
+5. 
