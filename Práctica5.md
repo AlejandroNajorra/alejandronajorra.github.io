@@ -48,8 +48,46 @@ Ya solo nos queda iniciar la clave pública o PKI:
 $cd ~/easy-rsa
 $./easyrsa init-pki
 ```
+Nos debería aparecer algo como:
+```bash
+Output
+init-pki complete; you may now create a CA or requests.
+Your newly created PKI dir is: /home/sammy/easy-rsa/pki
+```
 
-### 2. 
+### 3. Entidad de certificación y clave privada
+
+Accedemos al directorio *~/easy-rsa* y creamos y editamos el archivo vars de la siguiente manera:
+```bash
+~/easy-rsa/vars
+set_var EASYRSA_REQ_COUNTRY    "ES"
+set_var EASYRSA_REQ_PROVINCE   "Valencia"
+set_var EASYRSA_REQ_CITY       "Valencia"
+set_var EASYRSA_REQ_ORG        "Valencia"
+set_var EASYRSA_REQ_EMAIL      "ejemplo@gmail.com"
+set_var EASYRSA_REQ_OU         "Valencia"
+set_var EASYRSA_ALGO           "Valencia"
+set_var EASYRSA_DIGEST         "1234"
+```
+Obviamente esto son valores adaptados a la configuración que yo quiero, lo importante es no dejar estos valores en blanco o nos lo completará por defecto.
+
+Guardamos el archivo y activamos la PKI pero esta vez con la opción *build-ca*, para crear nuestro certificado público y el par de claves privadas para nuestra CA
+
+```bash
+./easy-rsa build-ca
+```
+Nos pedirán una contraseña y nombre común 
+Output
+. . .
+Enter New CA Key Passphrase:
+Re-Enter New CA Key Passphrase:
+. . .
+Common Name (eg: your user, host, or server name) [Easy-RSA CA]:
+
+CA creation complete and you may now import and sign cert requests.
+Your new CA certificate file for publishing is at:
+/home/student/easy-rsa/pki/ca.crt
+```
 
 
  /home/student/easy-rsa/pki/issued/student-server.crt
