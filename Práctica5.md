@@ -156,4 +156,4 @@ Firmamos
 ```bash
 scp student@192.168.1.1:/home/student/easy-rsa/pki/issued/server-alejandro.crt /home/alejandron/Downloads
 ```
-Una vez obtenido el certificado en nuestro cliente, iremos a los ajusted de nuestro navegador e importaremos el certificado firmado por nosotros
+Una vez obtenido el certificado en nuestro cliente, iremos a los ajustes de nuestro navegador e importaremos el certificado firmado por nosotros. el cual se encontrará en la carpeta donde habíamos específicado que se enviará, en nuestro caso, la carpeta "DOwnloads".
