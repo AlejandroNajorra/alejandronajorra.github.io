@@ -9,3 +9,5 @@
 14 limitar el tamaño de subida máximo de ficheros
 16 
 17 Directivas para protegerte de ataques de DDOS
+
+enviar a Carlos en una tarea que subirá los ficheros que modifiquemos (NO HACE FALTA MEMORIA)
