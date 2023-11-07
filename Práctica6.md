@@ -12,3 +12,10 @@
 
 enviar a Carlos en una tarea que subirá los ficheros que modifiquemos (NO HACE FALTA MEMORIA)
 dejar un comentario con un hashtag en el archivo acerca de que fichero hemos modificado
+Ejemplo:
+#Hardening1
+DIRECTIVAS....
+
+
+---
+
