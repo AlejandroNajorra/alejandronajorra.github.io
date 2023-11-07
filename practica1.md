@@ -51,3 +51,5 @@ sudo ufw allow 514/udp
 Reiniciamos el sistema para guardar la configuración
 
 	systemctl restart rsyslog.service
+
+ .
