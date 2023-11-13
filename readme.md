@@ -1,8 +1,8 @@
 #Soy alejandro
 
-[Práctica1](Práctica1.md)
+[Práctica1](práctica1.md)
 
-[Práctica2](Práctica2.md)
+[Práctica2](práctica2.md)
 
 [Práctica3](Práctica3.md)
 
