@@ -1,6 +1,6 @@
 #Soy alejandro
 
-[Práctica1](práctica1.md)
+[Práctica1](practica1.md)
 
 [Práctica2](práctica2.md)
 
